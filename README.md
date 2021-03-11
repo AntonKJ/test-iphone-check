@@ -23,4 +23,4 @@ docker-php-ext-install pdo pgsql pdo_mysql pdo_pgsql zip exif \
   
 после выполнить docker-compose restart
 
-все файлы проекта находятся в /src/promotion/ 
+Все файлы проекта находятся в /src/promotion/ 
