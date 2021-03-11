@@ -13,8 +13,8 @@ cat promotion.sql | docker exec -i mariadb /usr/bin/mysql -u root --password=roo
 
 то нужно войти в контейнер php и выполнить 
 
-docker exec -it php su 
-apt update
+docker exec -it php su &&
+apt update &&
 yes|apt install libpq-dev
 
 docker-php-ext-install pdo pgsql pdo_mysql pdo_pgsql zip exif \
