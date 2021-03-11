@@ -12,6 +12,10 @@ cat promotion.sql | docker exec -i mariadb /usr/bin/mysql -u root --password=roo
 
 
 
+
+
+
+
 Если возникнет ошибка PDO Exception (у когото возникает у когото нет)
 
 то нужно войти в контейнер php и выполнить 
