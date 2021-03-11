@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/src/briskly" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/briskly/business" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/briskly/business/api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/briskly/business_no_target_project" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/briskly/business_no_target_project/api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/briskly/dev/cms" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/briskly/dev/cms/4-4" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/briskly/dev/core" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/briskly/dev/framework/4-4" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/briskly/dev/libs" vcs="Git" />
+  </component>
+</project>

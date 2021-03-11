@@ -1,0 +1,1 @@
+cat turnover.sql | docker exec -i mariadb /usr/bin/mysql -u root --password=rootpwd6421
