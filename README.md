@@ -1,4 +1,4 @@
-# test-iphone-check
+# Test-Iphone-check
 
 Для запуска нужно выполнить docker-compose up --build в папке
 
