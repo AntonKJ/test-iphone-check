@@ -9,4 +9,17 @@
 
 cat promotion.sql | docker exec -i mariadb /usr/bin/mysql -u root --password=rootpwd6421
 
+Если возникнет ошибка PDO Exception (у когото возникает у когото нет)
+
+то нужно войти в контейнер php и выполнить 
+
+docker exec -it php su 
+apt update
+yes|apt install libpq-dev
+
+docker-php-ext-install pdo pgsql pdo_mysql pdo_pgsql zip exif \
+	&& docker-php-ext-configure gd \
+	&& docker-php-ext-install gd 
+  
+после выполнить docker-compose restart
 
