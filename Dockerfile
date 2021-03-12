@@ -34,7 +34,7 @@ RUN usermod -u 1000 www-data
 
 VOLUME /root/.composer
 
-WORKDIR /home/briskly
+WORKDIR /home/promotion
 
 EXPOSE 9000
 CMD ["php-fpm"]
